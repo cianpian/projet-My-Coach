@@ -1,0 +1,209 @@
+/* Réinitialisation des styles de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Styles pour le header (barre de navigation) */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Styles pour la section hero (accueil) */
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.cta-button:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;  
+}
+
+/* Styles pour la section Services */
+#services {
+
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.service {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service img {
+    max-width: 100%;
+}
+
+.service h3 {
+    margin-top: 20px;
+}
+
+.service h2{
+    text-align: center;
+}
+/* Styles pour la section Tarifs */
+#tarifs {
+    text-align: center;
+    padding: 60px;
+    background-color: #fff;
+}
+
+
+/* Styles pour la section Contact */
+#contact {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+.contact-form button[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;  
+}
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*Styles pour les horraires*/
+#horaires {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+}
+
+#horaires h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#horaires p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+#horaires ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#horaires li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Style pour les heures d'ouverture spécifiques */
+#horaires li strong {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Style pour les jours de la semaine */
+#horaires li em {
+    font-style: italic;
+}
+
+
+/* Styles pour le footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.liens-container {
+  display: flex;
+  justify-content: space-between;
+}
+
